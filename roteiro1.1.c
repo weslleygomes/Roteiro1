@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <math.h>
 
@@ -16,5 +17,6 @@ int main(){
         printf("Desconto: 10%%\n"
                "Preco final: R$%.02f", preco-preco*0.1);
     }
+    puts("");
     return 0;
 }
